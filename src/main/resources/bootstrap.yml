@@ -1,0 +1,15 @@
+#server:
+#  port: 8888
+
+#spring:
+#  application:
+#    name: Spring-Cloud-Config
+#  cloud:
+#    config:
+#      server:
+#        bootstrap: true
+#        git:
+#          uri: file:\\\C:\gitconfigprop\configuration
+#          force-pull: true
+#          cloneOnStart: true
+#          searchPaths:  ${scc.search.paths:{application}, {application}/extended-attributes, {application}/feature-flags, {application}/properties, {application}/error-codes,{application}/seed-data,{application}/globalization,{application}/json-validator-schema,{application}/seedData,{application}/workflowMetadata}
